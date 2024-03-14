@@ -4,9 +4,11 @@ import Header from "../Header/Header";
 
 const Root = () => {
   return (
-    <div className="container mx-auto">
-      <Header />
-      <Outlet />
+    <div className="">
+      <div className="container mx-auto">
+        <Header />
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );
